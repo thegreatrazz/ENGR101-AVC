@@ -64,9 +64,6 @@ Testing
 
 ### Lab B
 
-#### All
-Complete, confirm and sign the AVC plan. And arrange meetings.
-
 #### Raresh
 Testing 
 
@@ -78,15 +75,12 @@ Testing
 
 #### Person 4
 Testing
-
+---
 Project plan must be submitted by 17 May.
 
 ## Week 2
 
 ### Lab A -- 22 May
-
-#### All
-Complete, confirm and sign the AVC plan. And arrange meetings.
 
 #### Raresh
 Testing 
@@ -101,9 +95,6 @@ Testing
 Testing
 
 ### Lab B
-
-#### All
-Complete, confirm and sign the AVC plan. And arrange meetings.
 
 #### Raresh
 Testing 
@@ -120,9 +111,6 @@ Testing
 ## Week 3
 
 ### Lab A -- 29 May
-
-#### All
-Complete, confirm and sign the AVC plan. And arrange meetings.
 
 #### Raresh
 Testing 
@@ -141,7 +129,7 @@ Testing
 Finalise project, gettings ready for marking the week after.
 
 #### All
-Complete, confirm and sign the AVC plan. And arrange meetings.
+Sign off the project. Making sure everything on everyone's end is completed.
 
 #### Raresh
 Testing 
