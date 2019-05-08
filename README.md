@@ -73,7 +73,7 @@ Here are the key maps:
 
 Just remember, to build and run, you can just do `Shift`+`F9` → `F9` → `F5`.
 
-## Code style
+### Code style
 
 Please keep the code somewhat tidy and to the same sort of style. Here's what I
 mean:
