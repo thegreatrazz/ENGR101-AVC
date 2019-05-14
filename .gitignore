@@ -8,7 +8,7 @@ DEADJOE
 AVCProject.geany
 
 # Compiled binaries
-bin/
+build/
 
 # Compiled documentation
 docs/*.pdf

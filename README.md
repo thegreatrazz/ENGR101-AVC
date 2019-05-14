@@ -1,6 +1,6 @@
 # Autonomous Vechicle Challenge
 
-This is the GitLab project for **\<\<TEAM NAME HERE>>**'s AVC robot.
+This is the GitLab project for Team 4's AVC robot.
 
 ## Useful links
 
@@ -54,6 +54,18 @@ All I can really say here is... [Good luck!](https://www.cygwin.com/)
 
 ## Writing code
 
+### Project layout
+
+The bulk of the source code is in the [`src`](src/) folder and
+documentation meant for submission, like the [project plan](docs/plan.md)
+are in the [`docs`](docs/) folder.
+
+The `meson.build`, `pi.conf` and `AVCProject.geany` are support files meant
+to make working on this project easier.
+
+Please don't commit an PDFs, Word documents, the `build` folder and things
+that could better be kept in snippets or the wiki.
+
 ### Geany
 
 The Geany project allows you to more easily work, upload, compile and test the
@@ -62,55 +74,15 @@ code tweaks.
 
 Here are the key maps:
 
-* `F8` - **Set up Meson (Compile)** \
-  Sets up the compiler on the Raspberry Pi and... well... *compiles*.
-* `F9` - **Build** \
-  Builds the program on the Raspberry Pi.
+* `F8` - **Build (_Compile_ in toolbar)** \
+  Builds the code already uploaded to the Pi.
+* `F9` - **Upload and Build (_Build_ in toolbar)** \
+  Uploads the code to the Pi and builds it.
 * `F5` - **Execute** \
   Runs the program on the Raspberry Pi and report output here.
-* `Shift`+`F9` - **Upload code** \
+* `Shift`+`F9` - **Upload** \
   Uploads the latest revision of code to the Raspberry Pi.
+* `Ctrl`+`Shift`+`F9` - **Configure** \
+  **Don't use it unless you know what you're doing.** It configures the project.
 
-Just remember, to build and run, you can just do `Shift`+`F9` → `F9` → `F5`.
-
-### Code style
-
-Please keep the code somewhat tidy and to the same sort of style. Here's what I
-mean:
-
-```cpp
-
-#include <iostream>
-#include "Motor.h"
-
-class Motor {
-    int pin;
-    int angle;
-    int speed;
-
-public:
-    Motor(int pin);
-    ~Motor();
-
-    void set_angle(int angle);
-    void set_speed(int speed);
-
-    int get_angle();
-    int get_speed();
-}
-
-/** Entry point */
-int main() {
-    // This is an android with an arm connected to motor 3
-    Motor* arm = new Motor(3);
-    while (true) {
-        // Wave it back and forth to say hi!
-        arm.set_angle(45);
-        sleep(500);
-        arm.set_angle(135);
-        sleep(500);
-    }
-}
-```
-
-Don't forget to comment. Humans still can't read each others' minds.
+Just remember, to build and run, you can just do `F9` → `F5`.
