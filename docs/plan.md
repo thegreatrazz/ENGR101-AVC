@@ -10,7 +10,7 @@ date: 15 May 2019
 ## Contact information
 
 ### Raresh Nistor
-* Phone: 022 052 4574
+* Phone: 020 4190 5795
 * Email: nistorrare@ecs.vuw.ac.nz
 
 ### Paul Ireland
@@ -18,12 +18,12 @@ date: 15 May 2019
 * Email: irelanpaul@ecs.vuw.ac.nz
 
 ### Chris Yee
-* Phone: XXX XXX XXXX
-* Email: person3@ecs.vuw.ac.nz
+* Phone: 021 036 0213
+* Email: yeechri2@ecs.vuw.ac.nz
 
 ### Raewyn Balmadrid
-* Phone: XXX XXX XXXX
-* Email: person4@ecs.vuw.ac.nz
+* Phone: 027 718 1719
+* Email: balmadraew@ecs.vuw.ac.nz
 
 Communications will be taking place on ECS GitLab and a Facebook Messenger group chat.
 
@@ -126,7 +126,6 @@ Ensure the robot is fully working for quadrant 2
 #### Raewyn
 Testing code for quadrant 2 - making comments on any changes done
 
----
 Intermediate Report Due 24/5 - 
 Each person needs to submit their own report by today
 
