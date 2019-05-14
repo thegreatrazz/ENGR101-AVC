@@ -30,16 +30,16 @@ Communications will be taking place on ECS GitLab and a Facebook Messenger group
 ## Roles
 
 #### Raresh
-Project Lead and Software builder
+Project Lead and Software builder - Checking that everything produced is of quality
 
 #### Paul
-Software builder and plan creator
+Software builder and plan creator - Make sure everyone is staying on track
 
 #### Chris
-Hardware designer and 3d printer builder
+Hardware designer and 3d printer builder - Gets the robot working by each deadline
 
 #### Raewyn
-Hardware designer
+Hardware designer - Main tester of hardware components
 
 ## Lab B times
 
@@ -77,7 +77,7 @@ Build structure for plan
 Design Hardware - Draw the model for the robot
 
 #### Raewyn
-Work with Chris with hardware
+Work with Chris on hardware
 
 ### Lab B
 
@@ -107,7 +107,7 @@ Finish code on quadrant 2 working with Paul
 Finish code on quadrant 2 working with Raresh
 
 #### Chris
-finalizing robot and making any necessary tweaks
+finalizing robot and making any necessary tweaks 'last minute' tweaks
 
 #### Raewyn
 finalizing robot 
@@ -124,7 +124,7 @@ Start code for Quadrant 3
 Ensure the robot is fully working for quadrant 2
 
 #### Raewyn
-Testing code for quadrant 2 - making comments on any changes
+Testing code for quadrant 2 - making comments on any changes done
 
 ---
 Intermediate Report Due 24/5 - 
@@ -148,7 +148,7 @@ Build code for quadrant 4 with Paul
 
 ### Lab B
 
-Finalise project, gettings ready for marking the week after.
+Finalise project, getting ready for marking the week after.
 Catch up on any thing that hasn't been done.
 
 #### All
