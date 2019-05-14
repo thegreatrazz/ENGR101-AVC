@@ -18,6 +18,25 @@ Here are some useful links if you're not looking for the code.
 
 * [Project plan](docs/plan.md)
 
+## Managing Git
+
+### Download anew
+```bash
+git clone https://gitlab.ecs.vuw.ac.nz/nistorrare/engr-101-avc.git
+```
+
+### Making your progress
+```bash
+git add .		# Add all the changes made
+git commit -m "Message"	# Save them
+git push		# Upload the code to GitLab
+```
+
+### Getting changes
+```bash
+git pull
+```
+
 ## Building
 
 ### On the Raspberry Pi
