@@ -68,10 +68,10 @@ Thursday 1 - 3
 Complete, confirm and sign the AVC plan. And arrange meetings.
 
 #### Raresh
-Get team on track, set up initial software components
+Get team on track, set up initial software components - build structure for code
 
 #### Paul
-Build structure for plan
+Create and finish up plan and make sure team is aware of deadlines
 
 #### Chris
 Design Hardware - Draw the model for the robot
