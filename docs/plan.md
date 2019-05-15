@@ -40,7 +40,7 @@ Project Lead and Software builder - Checking that everything produced is of qual
 #### Paul
 Software builder and plan creator - Make sure everyone is staying on track
 
-#### Chris
+#### Thisali
 Hardware designer and 3d printer builder - Gets the robot working by each deadline
 
 #### Raewyn
@@ -54,8 +54,8 @@ Wednesday 4 - 6
 #### Paul
 Wednesday 12 - 2
 
-#### Chris
-Thursday 4 - 6
+#### Thisali
+Friday 9 - 11
 
 #### Raewyn
 Thursday 1 - 3
@@ -78,7 +78,7 @@ Get team on track, set up initial software components - build structure for code
 #### Paul
 Create and finish up plan and make sure team is aware of deadlines
 
-#### Chris
+#### Thisali / Chris
 Design Hardware - Draw the model for the robot
 
 #### Raewyn
@@ -92,7 +92,7 @@ Write code for quadrant 2
 #### Paul
 Writing code for quadrant 2
 
-#### Chris
+#### Thisali
 Building robot and finilazing 3d printer pieces
 
 #### Raewyn
@@ -111,7 +111,7 @@ Finish code on quadrant 2 working with Paul
 #### Paul
 Finish code on quadrant 2 working with Raresh
 
-#### Chris
+#### Thisali
 finalizing robot and making any necessary tweaks 'last minute' tweaks
 
 #### Raewyn
@@ -125,7 +125,7 @@ Finish code for Quadrant 3
 #### Paul
 Start code for Quadrant 3
 
-#### Chris
+#### Thisali
 Ensure the robot is fully working for quadrant 2
 
 #### Raewyn
@@ -144,7 +144,8 @@ Build code for quadrant 4  with Chris
 #### Paul
 Build code for quadrant 4 with Raewyn
 
-#### Chris
+#### Thisal
+
 Build code for quadrant 4 with Raresh - Make sure the robot camera motor is working for quadrant 4
 
 #### Raewyn
