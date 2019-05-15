@@ -10,16 +10,16 @@ date: 15 May 2019
 ## Contact information
 
 ### Raresh Nistor
-* Phone: 020 4190 5795
+* Phone: 020 419 05795
 * Email: nistorrare@ecs.vuw.ac.nz
 
 ### Paul Ireland
 * Phone: 021 122 7726
 * Email: irelanpaul@ecs.vuw.ac.nz
 
-### Chris Yee
-* Phone: 021 036 0213
-* Email: yeechri2@ecs.vuw.ac.nz
+### Thisali Godakanda
+* Phone: 021 025 24093
+* Email: godakathis@ecs.vuw.ac.nz
 
 ### Raewyn Balmadrid
 * Phone: 027 718 1719
