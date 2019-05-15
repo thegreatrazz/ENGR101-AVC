@@ -28,7 +28,11 @@ long_line_behaviour=2
 long_line_column=80
 
 [files]
-current_page=-1
+current_page=0
+FILE_NAME_0=2231;C++;0;EUTF-8;0;1;0;%2Fhome%2Firelanpaul%2FENGR101%2Fengr-101-avc%2Fsrc%2Fmain.cpp;0;4
+FILE_NAME_1=55;Conf;0;EUTF-8;0;1;0;%2Fhome%2Firelanpaul%2FENGR101%2Fengr-101-avc%2Fpi.conf;0;4
+FILE_NAME_2=130;C++;0;EUTF-8;0;1;0;%2Fhome%2Firelanpaul%2FENGR101%2Fengr-101-avc%2Fsrc%2FE101.h;0;4
+FILE_NAME_3=156;C++;0;EUTF-8;0;1;0;%2Fhome%2Firelanpaul%2FENGR101%2FProject2%2Fproj2ruby.cpp;0;4
 
 [build-menu]
 NF_00_LB=_Upload
@@ -41,7 +45,7 @@ NF_01_LB=_Configure
 NF_01_CM=source "%p/pi.conf" && ssh "$PI_USER@$PI_IP" avcproj/scripts/meson-build.sh \\~/"$PI_FOLDER"
 NF_01_WD=
 EX_00_LB=_Execute
-EX_00_CM=source "%p/pi.conf" && ssh "$PI_USER@$PI_IP" avcproj/build/avcbot
+EX_00_CM=source "%p/pi.conf" && ssh "$PI_USER@$PI_IP" sudo $PI_FOLDER/build/avcbot
 EX_00_WD=%p
 C++FT_01_LB=_Upload and Build
 C++FT_01_CM=source "%p/pi.conf" && rsync -arv --delete --exclude={"build",".git*","*.geany","docs","README*","pi.conf","*~"} "%p/" "$PI_USER@$PI_IP:$PI_FOLDER/" && ssh "$PI_USER@$PI_IP" avcproj/scripts/ninja-build.sh \\~/"$PI_FOLDER"
@@ -56,3 +60,6 @@ MarkdownFT_00_WD=%d
 MarkdownFT_02_LB=View PDF
 MarkdownFT_02_CM=xdg-open "%e.pdf" &
 MarkdownFT_02_WD=%d
+NF_03_LB=
+NF_03_CM=
+NF_03_WD=

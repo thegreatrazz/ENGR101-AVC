@@ -10,38 +10,55 @@ date: 15 May 2019
 ## Contact information
 
 ### Raresh Nistor
-* Phone: 022 052 4574
+* Phone: 020 4190 5795
 * Email: nistorrare@ecs.vuw.ac.nz
 
-### Person 2
-* Phone: XXX XXX XXXX
-* Email: person2@ecs.vuw.ac.nz
+### Paul Ireland
+* Phone: 021 122 7726
+* Email: irelanpaul@ecs.vuw.ac.nz
 
-### Person 3
-* Phone: XXX XXX XXXX
-* Email: person3@ecs.vuw.ac.nz
+### Chris Yee
+* Phone: 021 036 0213
+* Email: yeechri2@ecs.vuw.ac.nz
 
-### Person 4
-* Phone: XXX XXX XXXX
-* Email: person4@ecs.vuw.ac.nz
+### Raewyn Balmadrid
+* Phone: 027 718 1719
+* Email: balmadraew@ecs.vuw.ac.nz
 
 Communications will be taking place on ECS GitLab and a Facebook Messenger group chat.
 
 ## Roles
 
 #### Raresh
-TBD
+Project Lead and Software builder - Checking that everything produced is of quality
 
-#### Person 2
-TBD 
+#### Paul
+Software builder and plan creator - Make sure everyone is staying on track
 
-#### Person 3
-TBD 
+#### Chris
+Hardware designer and 3d printer builder - Gets the robot working by each deadline
 
-#### Person 4
-TBD
+#### Raewyn
+Hardware designer - Main tester of hardware components
+
+## Lab B times
+
+#### Raresh 
+Wednesday 4 - 6
+
+#### Paul
+Wednesday 12 - 2
+
+#### Chris
+Thursday 4 - 6
+
+#### Raewyn
+Thursday 1 - 3
+
 
 # Project Plan
+
+
 
 ## Week 1
 
@@ -51,30 +68,31 @@ TBD
 Complete, confirm and sign the AVC plan. And arrange meetings.
 
 #### Raresh
-Testing 
+Get team on track, set up initial software components - build structure for code
 
-#### Person 2
-Testing 
+#### Paul
+Create and finish up plan and make sure team is aware of deadlines
 
-#### Person 3
-Testing 
+#### Chris
+Design Hardware - Draw the model for the robot
 
-#### Person 4
-Testing
+#### Raewyn
+Work with Chris on hardware
 
 ### Lab B
 
 #### Raresh
-Testing 
+Write code for quadrant 2
 
-#### Person 2
-Testing 
+#### Paul
+Writing code for quadrant 2
 
-#### Person 3
-Testing 
+#### Chris
+Building robot and finilazing 3d printer pieces
 
-#### Person 4
-Testing
+#### Raewyn
+Test robot components and make sure that the hardware prototype is working.
+
 ---
 Project plan must be submitted by 17 May.
 
@@ -83,65 +101,59 @@ Project plan must be submitted by 17 May.
 ### Lab A -- 22 May
 
 #### Raresh
-Testing 
+Finish code on quadrant 2 working with Paul
 
-#### Person 2
-Testing 
+#### Paul
+Finish code on quadrant 2 working with Raresh
 
-#### Person 3
-Testing 
+#### Chris
+finalizing robot and making any necessary tweaks 'last minute' tweaks
 
-#### Person 4
-Testing
+#### Raewyn
+finalizing robot 
 
 ### Lab B
 
 #### Raresh
-Testing 
+Finish code for Quadrant 3
 
-#### Person 2
-Testing 
+#### Paul
+Start code for Quadrant 3
 
-#### Person 3
-Testing 
+#### Chris
+Ensure the robot is fully working for quadrant 2
 
-#### Person 4
-Testing
+#### Raewyn
+Testing code for quadrant 2 - making comments on any changes done
+
+Intermediate Report Due 24/5 - 
+Each person needs to submit their own report by today
 
 ## Week 3
 
 ### Lab A -- 29 May
 
 #### Raresh
-Testing 
+Build code for quadrant 4  with Chris
 
-#### Person 2
-Testing 
+#### Paul
+Build code for quadrant 4 with Raewyn
 
-#### Person 3
-Testing 
+#### Chris
+Build code for quadrant 4 with Raresh - Make sure the robot camera motor is working for quadrant 4
 
-#### Person 4
-Testing
+#### Raewyn
+Build code for quadrant 4 with Paul
 
 ### Lab B
 
-Finalise project, gettings ready for marking the week after.
+Finalise project, getting ready for marking the week after.
+Catch up on any thing that hasn't been done.
 
 #### All
 Sign off the project. Making sure everything on everyone's end is completed.
 
-#### Raresh
-Testing 
 
-#### Person 2
-Testing 
-
-#### Person 3
-Testing 
-
-#### Person 4
-Testing
 
 # Team Agreement
 
@@ -149,4 +161,4 @@ By signing below, all team members are acknowledging that they have read and com
 
 In the event that a team member is unable to complete their task due to circumstances beyond their control (i.e. sickness, bereavement etc) that they will inform the team at the earliest possible time. Finally, the team acknowledges that a member going a week without contact with other team members (except when discussed with the team in advance) will constitute the member in question being considered *absent without leave*. In this instance the team agrees to inform the ENGR101 course co-ordinator immediately. The penalty this for this can range from a reduction in the final grade to immediate failure of the AVC (and thus the ENGR101 course). Should the team unanimously agree that a member (or members) have failed to contribute to the AVC sufficiently for other reasons, on the day of robot testing the team will be given the opportunity to anonymously vote for a team member to receive 0% for the robot part of the AVC. Should the team choose this option they MUST be able to show that the member in question had been assigned tasks that they failed to complete and that the team had afforded them an opportunity to make up for past mistakes. 
 
-Signed by all team members below:
+Signed by all team members below: 
