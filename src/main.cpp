@@ -1,47 +1,16 @@
 
+// Project libraries
 #include <cstdio>
 #include "E101.h"
+#include "consts.h"     // File with constants
 
-#define MOTOR_LEFT 1
-#define MOTOR_RIGHT 5
-#define MOTOR_CAMERA 4
-
-#define MOTOR_DEADPOINT 48
-#define MOTOR_LIMIT 12
-
-float _speed;
-
-class Drive {
-private:
-    static void setMotors(double leftPower, double rightPower) {
-        set_motors(MOTOR_LEFT,  MOTOR_DEADPOINT + leftPower * MOTOR_LIMIT);
-        set_motors(MOTOR_RIGHT, MOTOR_DEADPOINT - rightPower * MOTOR_LIMIT);
-        hardware_exchange();
-    }
-
-public:
-    static void setSpeed(float speed) {
-        if (speed > 1) speed = 1;
-        if (speed < -1) speed = -1;
-        _speed = speed;
-
-        Drive::setMotors(speed, speed);
-    }
-
-    static void setAngle(float direction) {
-        if (direction == 0) {
-            Drive::setMotors(_speed, _speed);
-        } else if (direction < 0) {
-            Drive::setMotors((direction + 1) * _speed, _speed);
-        } else if (direction > 0) {
-            Drive::setMotors(_speed, (1 - direction) * _speed);
-        }
-    }
-};
+// Our own header files
+#include "Drive.h"
 
 class Camera {
 public:
     static void setAngle(int angle) {
+
     }
 
     static void getImage(){
@@ -83,20 +52,21 @@ public:
 }; //end of class Camera
 
 void tryPassword() {
-    char id_addr[15] = "130.135.6.196";
+    char ip_addr[15] = "130.195.6.196";
     unsigned short port = 1024;
-    char message[24] = "Please";
+    char message[] = "Please";
+    char password[24];
 
-    connect_to_server(id_addr, port);
+    connect_to_server(ip_addr, port);
     send_to_server(message);
-    receive_from_server(message);
-    send_to_server(message);
+    receive_from_server(password);
+    send_to_server(password);
 }
 
 int main() {
     printf("Hello world! Team 4\n");
     printf("Hello world! Perfect!\n");
-    //tryPassword();
+    tryPassword();
 
     init(0);
 
@@ -104,14 +74,13 @@ int main() {
     Drive::setSpeed(0);
     sleep1(1000);
 
-    printf("Backwards\n");
-    Drive::setSpeed(-1);
-        sleep1(1000);
-
-    for (double v = -1; v <= 1; v += 0.1) {
-        printf("%f\n", v);
-        Drive::setAngle(v);
-        sleep1(1000);
+    for (double s = -1; s <= 1; s += 0.1) {
+        printf("Speed: %f%%\n", s);
+        Drive::setSpeed(s);
+        for (double v = -1; v <= 1; v += 0.1) {
+            printf("Direction: %f\n", v);
+            Drive::setAngle(v);
+        }
     }
 
     printf("Forwards\n");

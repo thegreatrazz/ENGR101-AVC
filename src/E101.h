@@ -1,3 +1,4 @@
+#pragma once
 
 void stoph();
 int init(int debug_level);
