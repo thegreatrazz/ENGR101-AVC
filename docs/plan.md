@@ -23,7 +23,12 @@ date: 15 May 2019
 
 ### Raewyn Balmadrid
 * Phone: 027 718 1719
-* Email: balmadraew@ecs.vuw.ac.nz
+* Email: balmadraew@ecs.vuw.ac.n
+*
+
+### Thisali Godakanda
+* Phone: 
+* Email: 
 
 Communications will be taking place on ECS GitLab and a Facebook Messenger group chat.
 
