@@ -24,11 +24,8 @@ date: 15 May 2019
 ### Raewyn Balmadrid
 * Phone: 027 718 1719
 * Email: balmadraew@ecs.vuw.ac.n
-*
 
-### Thisali Godakanda
-* Phone: 
-* Email: 
+
 
 Communications will be taking place on ECS GitLab and a Facebook Messenger group chat.
 
@@ -78,7 +75,7 @@ Get team on track, set up initial software components - build structure for code
 #### Paul
 Create and finish up plan and make sure team is aware of deadlines
 
-#### Thisali / Chris
+#### Thisali 
 Design Hardware - Draw the model for the robot
 
 #### Raewyn
@@ -144,7 +141,7 @@ Build code for quadrant 4  with Chris
 #### Paul
 Build code for quadrant 4 with Raewyn
 
-#### Thisal
+#### Thisali
 
 Build code for quadrant 4 with Raresh - Make sure the robot camera motor is working for quadrant 4
 
