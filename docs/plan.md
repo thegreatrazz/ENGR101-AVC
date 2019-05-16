@@ -1,7 +1,7 @@
 ---
 title: Autonomous Vehicle Challenge
 subtitle: Project Plan
-author: Team Name
+author: Team 4
 date: 15 May 2019
 ---
 
