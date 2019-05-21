@@ -29,10 +29,9 @@ long_line_column=80
 
 [files]
 current_page=0
-FILE_NAME_0=2231;C++;0;EUTF-8;0;1;0;%2Fhome%2Firelanpaul%2FENGR101%2Fengr-101-avc%2Fsrc%2Fmain.cpp;0;4
+FILE_NAME_0=2857;C++;0;EUTF-8;0;1;0;%2Fhome%2Firelanpaul%2FENGR101%2Fengr-101-avc%2Fsrc%2Fmain.cpp;0;4
 FILE_NAME_1=55;Conf;0;EUTF-8;0;1;0;%2Fhome%2Firelanpaul%2FENGR101%2Fengr-101-avc%2Fpi.conf;0;4
-FILE_NAME_2=130;C++;0;EUTF-8;0;1;0;%2Fhome%2Firelanpaul%2FENGR101%2Fengr-101-avc%2Fsrc%2FE101.h;0;4
-FILE_NAME_3=156;C++;0;EUTF-8;0;1;0;%2Fhome%2Firelanpaul%2FENGR101%2FProject2%2Fproj2ruby.cpp;0;4
+FILE_NAME_2=156;C++;0;EUTF-8;0;1;0;%2Fhome%2Firelanpaul%2FENGR101%2FProject2%2Fproj2ruby.cpp;0;4
 
 [build-menu]
 NF_00_LB=_Upload

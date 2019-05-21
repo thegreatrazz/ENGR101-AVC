@@ -2,7 +2,7 @@
 
 #define MOTOR_LEFT 1
 #define MOTOR_RIGHT 5
-#define MOTOR_CAMERA 4
+#define MOTOR_CAMERA 3
 
 #define MOTOR_DEADPOINT 48
 #define MOTOR_LIMIT 12
