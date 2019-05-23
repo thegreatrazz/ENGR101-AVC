@@ -4,9 +4,16 @@
 #include "E101.h"
 #include "consts.h"     // File with constants
 
-// Our own header files
-
+// Helper functions
 #include "Drive.h"
+#include "Camera.h"
+
+// Quad codes
+#include "Gate.h"           // Quad 1
+#include "LineFollower.h"   // Quad 2
+#include "MazeFollower.h"   // Quad 3
+#include "RubberDucky.h"    // Quad 4
+
 //Chucked these in for debugging, i couldnt rememeber which one printed stuff out
 #include <stdio.h>
 #include <time.h>
@@ -15,10 +22,10 @@
 #include <math.h>
 #include <stdlib.h>
 #include <iostream>
-int debug = 2;
+int debug = 0;
 double kp = 1.0/10000.0; // This value probably too big, needs to be even smaller, needs testing
 int quad = 2;
-class Camera {
+class OldCamera {
 public:
    // static void setAngle(int angle) { - dont think we need this
 
@@ -51,15 +58,17 @@ public:
                     double blueValue = get_pixel(y, x, 2); //get blue value
                     if(blueValue < 40 && greenValue < 40){
                         quad += 1;// Call something when reached next quadrant
-                        return;
+
+    //for (int i = 0; i < 0   return;
                     }
 
 
-                    if (value > whiteValMin)
+                    if (value > whiteValMin) {
                         image[x][y] = 0;    //setting a white pixel in the array with value of 0
                         whiteC += 1;
-                    else if (value < blackValMax)
+                    } else if (value < blackValMax) {
                         image[x][y] = 1;    //setting the value of a black pixel in array to 1
+                    }
                 }
             }
 
@@ -220,6 +229,38 @@ void tryPassword() {
 }
 
 int main() {
+    init(0);
+    open_screen_stream();
+
+    int quad = 2;
+
+    while (true) {
+        switch (quad) {
+        case 1:
+            // TBD
+            break;
+        case 2:
+            LineFollower::followTheLine();
+            break;
+        case 3:
+            // TBD
+            break;
+        case 4:
+            // TBD
+            break;
+        default:
+            printf("You fucked up! Quad = %d\n", quad);
+            return 1;
+        }
+
+        update_screen();
+        if (Camera::quadBoundary()) quad += 1;
+    }
+
+    close_screen_stream();
+}
+
+int oldmain() {
 
     //tryPassword();
     init(0);
@@ -300,11 +341,11 @@ int main() {
     while(true){ // actual code
 
         if(quad == 2){ //Code for quadrant 2 - following the line
-            Camera::getImage();
+            OldCamera::getImage();
         }
 
         else if(quad == 3){ //code for quadrant 3 - making decisions
-            Camera::getImage();
+            OldCamera::getImage();
 
         }
 
@@ -314,7 +355,7 @@ int main() {
 
         }
 
-
+        update_screen();
 
     }
 
