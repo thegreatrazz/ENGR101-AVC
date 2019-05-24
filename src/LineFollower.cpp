@@ -46,7 +46,14 @@ void LineFollower::followTheLine() {
                 lineLength++;
             }
         }
-        printf(error[i] ? "X" : " ");
     }
-    printf("\n");
+
+    int lineCenter = lineStart + lineLength / 2;
+    float angle = (float)(lineCenter - 160) / 160;
+
+    Drive::setAngle(angle);
+
+    // Differential experimentation
+
+
 }

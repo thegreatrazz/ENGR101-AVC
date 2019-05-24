@@ -23,13 +23,13 @@
 
 Pixel* Camera::getLine(int y) {
     Pixel* line = new Pixel[FB_WIDTH];
-    if (y < 0 || y >= FB_WIDTH) {
+    if (y < 0 || y >= FB_HEIGHT) {
         return NULL;
     }
     take_picture();
 
     // Take picture and create pixels
-    for (int x = 0; x < FB_HEIGHT; x++) {
+    for (int x = 0; x < FB_WIDTH; x++) {
         line[x].r = get_pixel(y, x, 0);
         line[x].g = get_pixel(y, x, 1);
         line[x].b = get_pixel(y, x, 2);
