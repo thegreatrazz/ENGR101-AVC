@@ -63,7 +63,7 @@ bool Camera::quadBoundary() {
         greenValue += (int)line[i].g;
         blueValue += (int)line[i].b;
 
-        if(blueValue < 40 && greenValue < 40){
+        if(blueValue < 40 && greenValue < 40){ //Found the quadrant boundary
             return true;
         }
     }

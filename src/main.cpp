@@ -7,6 +7,9 @@
 #include <unistd.h>
 #include <iostream>
 
+// E101 library
+#include "E101.h"
+
 // Helper functions
 #include "Drive.h"
 #include "Camera.h"
@@ -22,12 +25,15 @@ int main() {
     init(0);
     open_screen_stream();
 
+    //system("echo 'Team 4 presents'; figlet AVCBot -f slant | lolcat -a");
+
     int quad = 2;
 
     while (true) {
         switch (quad) {
         case 1:
             Gate::openSesame();
+            //sleep1(3000);
             break;
         case 2:
             LineFollower::followTheLine();
@@ -39,11 +45,11 @@ int main() {
             // TBD
             break;
         default:
-            printf("You fucked up! Quad = %d\n", quad);
+            printf("You messed up! Quad = %d\n", quad);
             return 1;
         }
 
-        update_screen();
+        //update_screen();
         if (Camera::quadBoundary()) quad += 1;
     }
 
