@@ -14,12 +14,17 @@ void Drive::setMotors(double leftPower, double rightPower) {
 void Drive::setSpeed(float speed) {
     if (speed > 1) speed = 1;
     if (speed < -1) speed = -1;
-    _Drive_speed = speed;
+    _Drive_speed = -speed;
 
     Drive::setAngle(_Drive_angle);
 }
 
+void Drive::reverseAngle() {
+    Drive::setAngle(-_Drive_angle);
+}
+
 void Drive::setAngle(float direction) {
+    _Drive_angle = direction;
     if (direction == 0) {
         Drive::setMotors(_Drive_speed, _Drive_speed);
     } else if (direction < 0) {

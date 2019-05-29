@@ -6,6 +6,7 @@
  */
 
 #include <cstdio>
+#include "E101.h"
 
 #include "Drive.h"
 #include "Camera.h"
@@ -13,7 +14,7 @@
 
 void LineFollower::followTheLine() {
     int whiteCount = 0;
-    Pixel* line = Camera::getLine(Camera::FB_HEIGHT / 2);
+    Pixel* line = Camera::getLine(Camera::FB_HEIGHT * 2 / 3);
 
     bool error[Camera::FB_WIDTH];
 
@@ -27,12 +28,18 @@ void LineFollower::followTheLine() {
 
     delete[] line;
 
+    for (int x = 0; x < Camera::FB_WIDTH; x++) {
+        printf(error[x] ? "#" : " ");
+    }
+    printf("\n");
+
     // If robot has lost line completely, reverse
     if (whiteCount >= Camera::FB_WIDTH) {
-        Drive::setSpeed(-0.5);
-        Drive::setAngle(0);
+        Drive::setSpeed(-0.25);
+        Drive::reverseAngle();
         return;
     }
+    Drive::setSpeed(0.5);
 
     // Get the line
     int lineStart = -1;
@@ -51,7 +58,7 @@ void LineFollower::followTheLine() {
     int lineCenter = lineStart + lineLength / 2;
     float angle = (float)(lineCenter - 160) / 160;
 
-    Drive::setAngle(angle);
+    Drive::setAngle(-angle);
 
     // Differential experimentation
 

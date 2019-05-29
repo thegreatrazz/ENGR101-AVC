@@ -27,16 +27,18 @@ int main() {
 
     //system("echo 'Team 4 presents'; figlet AVCBot -f slant | lolcat -a");
 
-    int quad = 2;
+    int quad = 1;
 
     while (true) {
         switch (quad) {
         case 1:
             Gate::openSesame();
-            //sleep1(3000);
+            //sleep1(1000);
+            Drive::setSpeed(0.25);
+            quad++;
             break;
         case 2:
-            LineFollower::followTheLine();
+            LineFollower::followTheLine();//
             break;
         case 3:
             // TBD
@@ -50,7 +52,7 @@ int main() {
         }
 
         //update_screen();
-        if (Camera::quadBoundary()) quad += 1;
+        //if (Camera::quadBoundary()) quad += 1;
     }
 
     close_screen_stream();

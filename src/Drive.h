@@ -14,4 +14,5 @@ private:
 public:
     static void setSpeed(float speed);
     static void setAngle(float direction);
+    static void reverseAngle();
 };
